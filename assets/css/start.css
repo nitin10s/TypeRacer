@@ -1,0 +1,139 @@
+.typer{
+			/* Style for "TypeRacer" */
+width: 198px;
+height: 50px;
+color: #4e4e4e;
+font-family: Grinched;
+font-size: 39px;
+font-weight: 400;
+position: absolute;
+z-index: 10;
+top: 0px;
+margin-top: 25px;
+		}
+
+.timeleft{
+	position: absolute;
+/* Style for "Time Left" */
+
+width: 0px;
+height: 32px;
+color: #1f1f1f;
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 400;
+z-index: 4;
+padding-left: 1391px;
+top: 0px;
+		}
+
+#timerr{
+	position: absolute;
+/* Style for "Time Left" */
+
+width: 0px;
+height: 32px;
+color: #1f1f1f;
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 400;
+z-index: 4;
+padding-left: 1471px;
+top: 0px;
+}
+
+#test{
+	/* Style for "hello" */
+width: 712px;
+height: 170px;
+color: #4e4e4e;
+font-family: Coolvetica;
+font-size: 133px;
+font-weight: 400;
+letter-spacing: 15.9px;
+padding-left: 440px;
+padding-top: 260px;
+}
+
+#t1{
+	/* Style for "Path 1" */
+width: 307px;
+height: 48px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+border: 2px solid #ffc070;
+border-radius: 19px;
+margin-left: 600px;
+font-size: 20px;
+}
+
+
+::placeholder{
+	/* Style for "Type the w" */
+width: 208px;
+height: 32px;
+color: #b9b9b9;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 500;
+padding-left: 10px;
+}
+
+input[type="text"]{
+
+  background-color : #FCF7EF; 
+  font-size: 20px;
+
+}
+
+#counttext{
+	/* Style for "Corrected" */
+width: 292px;
+height: 35px;
+color: #7a7a7a;
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 500;
+padding-left: 610px;
+padding-top: 90px;
+position: absolute;
+z-index: 5;
+}
+
+
+.bth{
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: 6;
+	color: #4e4e4e;
+	font-family: Montserrat;
+}
+
+.bth-restart{
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+	color: #4e4e4e;
+	font-family: Montserrat;
+	text-decoration: none;
+}
+
+#count{
+	width: 292px;
+height: 35px;
+color: #7a7a7a;
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 500;
+padding-left: 880px;
+padding-top: 90px;
+position: absolute;
+z-index: 5;
+}
+
+.mybtn{
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid gray;
+	cursor: pointer;
+}

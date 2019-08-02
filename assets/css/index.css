@@ -1,0 +1,93 @@
+		#maint{
+			/* Style for "Are you re" */
+width: 712px;
+height: 280px;
+color: #4e4e4e;
+font-family: Coolvetica;
+font-size: 57px;
+font-weight: 400;
+position: absolute;
+padding-left: 598px;
+text-align: center;
+padding-top: 238px;
+z-index: 1;
+
+		}
+
+		#gets{
+			/* Style for "Get Starte" */
+width: 154px;
+height: 32px;
+color: #4e4e4e;
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+position: absolute;
+padding-left: 870px;
+padding-top: 440px;
+z-index: 3;
+
+		}
+
+		.rec{
+			/* Style for "Button" */
+width: 200px;
+height: 50px;
+border-radius: 29px;
+border: 4px solid #f13953;
+position: absolute;
+margin-left: 848px;
+margin-top: 458px;
+z-index: 2;
+background-color: #FFC070;
+		}
+
+		.loginreg{
+			position: absolute;
+width: 74px;
+height: 32px;
+color: #1f1f1f;
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 400;
+z-index: 10;
+		}
+
+		.loginregs{
+			position: absolute;
+width: 74px;
+height: 32px;
+color: #1f1f1f;
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 400;
+z-index: 11;
+		}
+
+		#upperrect{
+			/* Style for "Rectangle" */
+width: 0px;
+height: 76px;
+border: none;
+box-shadow: 0 3px 49px rgba(0, 0, 0, 0.16);
+background-color: #ecb163;
+position: absolute;
+top: 0px;
+left: 0px;
+opacity: 0.43;
+z-index: 5;
+		}
+
+		.typer{
+			/* Style for "TypeRacer" */
+width: 198px;
+height: 50px;
+color: #4e4e4e;
+font-family: Grinched;
+font-size: 39px;
+font-weight: 400;
+position: absolute;
+z-index: 10;
+top: 0px;
+margin-top: 25px;
+		}
