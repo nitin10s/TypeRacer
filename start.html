@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<style>
-
-	</style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/start.css">
+  <head>
+    <style></style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/start.css" />
 
     <title>Document</title>
-</head>
-<body onload="start()" bgcolor="#FCF7EF">
+  </head>
+  <body onload="start()" bgcolor="#FCF7EF">
+    <div>
+      <p class="typer" style="padding-left: 51px;">TypeRacer</p>
+      <p class="timeleft">Time:</p>
+      <p id="timerr">30</p>
+      <div id="test" style="text-align: center;"></div>
+      <form>
+        <input
+          style="font-size: 20px; text-align: center;"
+          type="text"
+          id="t1"
+          onkeydown="setTimeout(abc, 50)"
+          placeholder="Type the word..."
+        />
+      </form>
 
-
-<div>
-    <p class="typer" style="padding-left: 51px;">TypeRacer</p>
-    <p class="timeleft">Time:</p>
-    <p id="timerr">30</p>
-    <div id="test" style="text-align: center;"></div>
-    <form>
-    <input style="font-size: 20px; text-align: center;" type="text" id="t1" onkeydown="setTimeout(abc, 50)" placeholder="Type the word...">
-</form>
-
-    <div id='hidden'></div>
-    <script src="assets/js/script.js"></script>
-    <br><br>
-    <p  style="text-align: center;" id="counttext">Corrected Words : &nbsp; </p>
-    <a href="index.html"><p class="bth"><button class="mybtn">Back to Homepage </button></p></a>
-    <p id="count" style="color:">0</p>
-    <br>
-    <a class="bth-restart" href="start.html"><button class="mybtn">Restart</button></a>
-
-</div>
-</body>
+      <div id="hidden"></div>
+      <script src="assets/js/script.js"></script>
+      <br /><br />
+      <p style="text-align: center;" id="counttext">Corrected Words : &nbsp;</p>
+      <a href="index.html"
+        ><p class="bth"><button class="mybtn">Back to Homepage</button></p></a
+      >
+      <p id="count" style="color:">0</p>
+      <br />
+      <a class="bth-restart" href="start.html"
+        ><button class="mybtn">Restart</button></a
+      >
+    </div>
+  </body>
 </html>
