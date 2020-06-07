@@ -1,5 +1,4 @@
 # TypeRacer
-
 <b>An online typing game to test your speed.</b>
 <br>
 Screenshots:

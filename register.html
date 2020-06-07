@@ -1,76 +1,49 @@
 <html>
-  <head>
-    <title>Sign-Up</title>
-  </head>
-  <link rel="stylesheet" type="text/css" href="assets/css/register_style.css" />
-  <body>
-    <div class="wrapper">
-      <div class="side_image">
-        <p class="companyName">TypeRacer</p>
-        <p class="wittyText" style="margin-top: 200px">
-          Join the TypeRacer.<Br />Be like us!
-        </p>
-        <ul>
-          <li><a href="#" id="list_items">About</a></li>
-          <li><a href="#" id="list_items">Contact us</a></li>
-        </ul>
+<head>
+<title>Sign-Up</title>
+</head>
+<link rel="stylesheet" type="text/css" href="assets/css/register_style.css">
+<body>
+	<div class = "wrapper">
 
-        <img src="assets/images/backgrounds/new.png" />
+      <div class = "side_image">
+         <p class = "companyName">TypeRacer</p>
+         <p class = "wittyText" style="margin-top: 200px">Join the TypeRacer.<Br>Be like us!</p>
+         <ul>
+            <li><a href="#" id="list_items">About</a></li>
+            <li><a href="#" id="list_items">Contact us</a></li>
+         </ul>
+
+          <img src = "assets/images/backgrounds/new.png">
       </div>
-      <div class="login_box">
-        <form action="register.php" method="POST">
-          <br /><br />
-          <p>USERNAME</p>
-          <input
-            type="text"
-            name="username"
-            placeholder="Username"
-            required
-          /><br />
+      <div class = "login_box">
+            <form action="register.php" method="POST">
+              <br><br>
+              <p>USERNAME</p>
+              <input type="text" name="username" placeholder="Username" required><br>
 
-          <p>NAME</p>
-          <input type="text" name="name" placeholder="Name" required /><br />
+              <p>NAME</p>
+              <input type="text" name="name" placeholder="Name" required><br>
+          
+              <p>E-MAIL</p>
+              <input type="email" name="email" placeholder="Your E-mail" required><br>
 
-          <p>E-MAIL</p>
-          <input
-            type="email"
-            name="email"
-            placeholder="Your E-mail"
-            required
-          /><br />
+              <p>PHONE NUMBER</p>
+              <input type="text" name="phone" placeholder="Phone Number" required><br>
+              <p>PASSWORD</p>
+              <input type="password" name="password" placeholder="Password" required><br>
+              <input type="submit" name="submit" value="SIGN-UP" id="buttons"><br>
 
-          <p>PHONE NUMBER</p>
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone Number"
-            required
-          /><br />
-          <p>PASSWORD</p>
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            required
-          /><br />
-          <input
-            type="submit"
-            name="submit"
-            value="SIGN-UP"
-            id="buttons"
-          /><br />
 
-          <a
-            class="link"
-            href="login.html"
-            style="
+              <a class = "link" href="login.html" style="
     margin-right: 160px;
     margin-top: -32;
-"
-            >Already a memeber? Sign-in here.</a
-          >
-        </form>
-      </div>
-    </div>
-  </body>
+">Already a memeber? Sign-in here.</a>
+            </form>
+
+        </div>
+
+</div>
+
+</body>
 </html>
